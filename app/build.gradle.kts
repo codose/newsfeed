@@ -28,6 +28,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "com.android.newsfeed.HiltTestRunner"
+        // TODO: Better way to extract the key would be to add it in local properties file
+        buildConfigField("String", "API_KEY", "\"2d021085c2e64c23927ff485d9f4299b\"")
     }
     buildTypes {
         getByName("release") {
