@@ -2,12 +2,11 @@
 ## Features 🎨
 
 - **100% Kotlin-only project**.
-- Coroutine, Jetpack compose, Hilt, Flow, AndroidX,MVVM.
+- Coroutine, Jetpack compose, Hilt, Flow, AndroidX,MVVM, Junit Tests.
 - 100% Gradle Kotlin DSL setup.
 - Dependency versions managed via `buildSrc`.
 - CI Setup with GitHub Actions.
-- Kotlin Static Analysis via `ktlint` and `detekt`.
-- Issues project (bug report + feature request)
+- Kotlin Static Analysis via `ktlint`.
 
 ## Gradle Setup 🐘
 
@@ -38,3 +37,9 @@ There are currently the following workflows available:
 ## How To Build
 Pull the code on this branch, import into Android Studio, from there you can run it like a standard
 android project project or run ./gradlew assembleDebug. Further notes can be found here https://developer.android.com/studio/build/building-cmdline#DebugMode
+
+## Screenshots
+![Screenshot 1](screenshots/1.png "Home Dark")
+![Screenshot 2](screenshots/2.png "Home Light")
+![Screenshot 3](screenshots/3.png "News Light")
+![Screenshot 4](screenshots/4.png "News Dark")
