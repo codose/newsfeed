@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/.github/workflows/workflow.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/build.gradle.kts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/data/api/StackExchangeApi.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/data/model/ItemSchema.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/data/model/SearchResponseSchema.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/data/paging/SearchPagingSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/data/repository/StackSearchRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/data/repository/StackSearchRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/domain/mapper/SearchMapper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/domain/model/Badge.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/domain/model/BadgeDomain.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/domain/model/SearchUserDomain.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/domain/usecase/SearchUserUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/composable/BadgeView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/composable/ErrorPage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/composable/FullScreenProgress.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/composable/IdleState.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/composable/SearchComponent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/composable/SearchList.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/composable/SearchListItem.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/model/User.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/navigation/AppNavigation.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/navigation/AssetParamType.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/navigation/Routes.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/screens/DetailsScreen.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/screens/HomeScreen.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/theme/Color.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/ui/viewmodel/SearchViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/utils/Constants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/java/com/example/candyspacestack/utils/DateUtils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/resources/success_response.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/main/resources/success_response_empty.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/data/paging/SearchPagingSourceTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/di/FakeNetworkModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/dispatchers/SuccessDispatcher.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/dispatchers/TestDispatcherProvider.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/domain/mapper/SearchMapperTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/domain/usecase/SearchUserUseCaseTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/ui/AndroidXIdlingResource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/ui/MainActivityTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/ui/composable/ErrorPageTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/ui/composable/IdleStateTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/ui/composable/SearchComponentTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/ui/composable/SearchListTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/app/src/test/java/com/example/candyspacestack/ui/viewmodel/SearchViewModelTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CandySpaceStack/buildSrc/src/main/kotlin/Hilt.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
