@@ -1,4 +1,4 @@
-# Github Search
+# News Feed
 ## Features 🎨
 
 - **100% Kotlin-only project**.
