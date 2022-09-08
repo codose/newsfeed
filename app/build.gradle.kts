@@ -109,6 +109,7 @@ dependencies {
     implementation(Room.room)
     implementation(Room.roomKtx)
     kapt(Room.roomKapt)
+    implementation(Browser.browser)
 }
 
 jacoco {

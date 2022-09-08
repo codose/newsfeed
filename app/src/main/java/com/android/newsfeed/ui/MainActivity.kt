@@ -9,9 +9,11 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
+import androidx.hilt.navigation.compose.hiltViewModel
 import coil.annotation.ExperimentalCoilApi
 import com.android.newsfeed.ui.theme.NewsFeedTheme
-import com.android.newsfeed.ui.navigation.MainNavigation
+import com.android.newsfeed.ui.screens.MainScreen
+import com.android.newsfeed.ui.viewmodel.ArticlesViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -35,7 +37,8 @@ fun NewsFeedApp() {
                 .fillMaxSize(),
             color = MaterialTheme.colors.background
         ) {
-            MainNavigation()
+            val articlesViewModel: ArticlesViewModel = hiltViewModel()
+            MainScreen(articlesViewModel)
         }
     }
 }

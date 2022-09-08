@@ -6,19 +6,22 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.android.newsfeed.domain.model.ArticleItem
 import com.android.newsfeed.domain.usecase.State
 import com.android.newsfeed.ui.composable.ErrorPage
 import com.android.newsfeed.ui.composable.FullScreenProgress
 import com.android.newsfeed.ui.composable.ArticlesList
 import com.android.newsfeed.ui.viewmodel.ArticlesViewModel
+import com.android.newsfeed.utils.getActivity
+import com.android.newsfeed.utils.openChromeTab
 
 @Composable
-fun MainScreen(articlesViewModel: ArticlesViewModel, onClicked: (ArticleItem) -> Unit) {
+fun MainScreen(articlesViewModel: ArticlesViewModel) {
     val data by articlesViewModel.state.collectAsState()
+    val activity = LocalContext.current.getActivity()
 
     Column(Modifier) {
         Box(modifier = Modifier.fillMaxWidth()) {
@@ -35,7 +38,9 @@ fun MainScreen(articlesViewModel: ArticlesViewModel, onClicked: (ArticleItem) ->
                 FullScreenProgress(modifier = Modifier.fillMaxSize())
             }
             is State.Success -> {
-                ArticlesList(listItems = (data as State.Success).data, onClicked)
+                ArticlesList(listItems = (data as State.Success).data) { article ->
+                    activity?.openChromeTab(article.url)
+                }
             }
         }
     }
