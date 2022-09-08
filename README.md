@@ -39,7 +39,7 @@ Pull the code on this branch, import into Android Studio, from there you can run
 android project project or run ./gradlew assembleDebug. Further notes can be found here https://developer.android.com/studio/build/building-cmdline#DebugMode
 
 ## Screenshots
-![Screenshot 1](screenshots/1.png "Home Dark")
-![Screenshot 2](screenshots/2.png "Home Light")
-![Screenshot 3](screenshots/3.png "News Light")
-![Screenshot 4](screenshots/4.png "News Dark")
+<img src="screenshots/1.png" width="30%" height="30%" alt="Screenshot 1">
+<img src="screenshots/2.png" width=30% height=30% alt="Screenshot 2">
+<img src="screenshots/3.png" width=30% height=30% alt="Screenshot 3">
+<img src="screenshots/4.png" width=30% height=30% alt="Screenshot 4">
