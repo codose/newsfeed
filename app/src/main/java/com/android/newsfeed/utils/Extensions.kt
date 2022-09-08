@@ -19,7 +19,7 @@ fun Activity.openChromeTab(url: String) {
     val customBuilder = with(builder) {
         setShowTitle(true)
         setInstantAppsEnabled(true)
-        setToolbarColor(ContextCompat.getColor(this@openChromeTab, R.color.black))
+        setToolbarColor(ContextCompat.getColor(this@openChromeTab, R.color.chrome_background))
         build()
     }
 
