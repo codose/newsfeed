@@ -17,6 +17,8 @@ import com.android.newsfeed.ui.composable.ArticlesList
 import com.android.newsfeed.ui.viewmodel.ArticlesViewModel
 import com.android.newsfeed.utils.getActivity
 import com.android.newsfeed.utils.openChromeTab
+import com.google.accompanist.swiperefresh.SwipeRefresh
+import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
 
 @Composable
 fun MainScreen(articlesViewModel: ArticlesViewModel) {
@@ -25,12 +27,20 @@ fun MainScreen(articlesViewModel: ArticlesViewModel) {
 
     Column(Modifier) {
         Box(modifier = Modifier.fillMaxWidth()) {
-            Text(modifier = Modifier.padding(16.dp), text = "NewsFeed", fontSize = 20.sp, fontWeight = FontWeight.Black)
+            Text(
+                modifier = Modifier.padding(16.dp),
+                text = "NewsFeed",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Black
+            )
         }
 
         when (data) {
             is State.Failure -> {
-                ErrorPage(message = (data as State.Failure).message, modifier = Modifier.fillMaxSize()) {
+                ErrorPage(
+                    message = (data as State.Failure).message,
+                    modifier = Modifier.fillMaxSize()
+                ) {
                     articlesViewModel.getArticles()
                 }
             }
@@ -38,8 +48,13 @@ fun MainScreen(articlesViewModel: ArticlesViewModel) {
                 FullScreenProgress(modifier = Modifier.fillMaxSize())
             }
             is State.Success -> {
-                ArticlesList(listItems = (data as State.Success).data) { article ->
-                    activity?.openChromeTab(article.url)
+                SwipeRefresh(
+                    state = rememberSwipeRefreshState(isRefreshing = data is State.Loading),
+                    onRefresh = { articlesViewModel.getArticles() }
+                ) {
+                    ArticlesList(listItems = (data as State.Success).data) { article ->
+                        activity?.openChromeTab(article.url)
+                    }
                 }
             }
         }

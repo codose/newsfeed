@@ -16,7 +16,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.annotation.ExperimentalCoilApi
-import coil.compose.rememberImagePainter
+import coil.compose.rememberAsyncImagePainter
 import com.android.newsfeed.domain.model.ArticleItem
 
 @ExperimentalCoilApi
@@ -38,7 +38,7 @@ fun ArticleItemView(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(256.dp),
-                painter = rememberImagePainter(article.urlToImage),
+                painter = rememberAsyncImagePainter(article.urlToImage),
                 contentDescription = "Article Image",
                 contentScale = ContentScale.Crop
             )

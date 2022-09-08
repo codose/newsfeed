@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    compileSdk = 31
+    compileSdk = 33
 
     lint {
         abortOnError = false
@@ -23,7 +23,7 @@ android {
     defaultConfig {
         applicationId = "com.android.newsfeed"
         minSdk = 24
-        targetSdk = 31
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -107,6 +107,7 @@ dependencies {
 
     implementation(Compose.coil)
     implementation(Compose.paging)
+    implementation(Compose.swipeRefresh)
 
     implementation(Room.room)
     implementation(Room.roomKtx)
